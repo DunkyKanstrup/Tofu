@@ -54,7 +54,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Pages\pigPage.xaml">
+	  <MauiXaml Update="View\pigPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
@@ -79,6 +79,8 @@
 
 	<ItemGroup>
 	  <Folder Include="Model\" />
+	  <Folder Include="ViewModel\" />
+	  <Folder Include="Services\" />
 	</ItemGroup>
 
 </Project>
