@@ -36,6 +36,11 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
+            <Button
+                x:Name="GrisBtn"
+                Text="Gris"
+                Clicked="navigatePage"/>
+
         </VerticalStackLayout>
     </ScrollView>
 
