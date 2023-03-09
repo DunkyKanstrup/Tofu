@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tofu.View.AnimalPage"
+             Title="AnimalPage">
+    <VerticalStackLayout>
+        <Label Text="Product name"
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    FontSize="Small"
+                    VerticalOptions="Center"></Label>
+        <Entry x:Name="ProductName"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    VerticalOptions="Center"></Entry>
+        <DatePicker></DatePicker>
+    </VerticalStackLayout>
+</ContentPage>
