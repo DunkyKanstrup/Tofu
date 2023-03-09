@@ -54,7 +54,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="View\pigPage.xaml">
+	  <MauiXaml Update="ViewModel\CowViewModel.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\AnimalPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
@@ -75,12 +78,6 @@
 	  <PackageReference Include="CommunityToolkit.Maui">
 	    <Version>4.0.0</Version>
 	  </PackageReference>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Model\" />
-	  <Folder Include="ViewModel\" />
-	  <Folder Include="Services\" />
 	</ItemGroup>
 
 </Project>

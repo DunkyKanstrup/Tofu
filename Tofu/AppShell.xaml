@@ -11,8 +11,5 @@
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
-    <ShellContent
-        Title="newPig"
-        ContentTemplate="{DataTemplate local:pigPage}"
-        Route="pigPage" />
+    
 </Shell>

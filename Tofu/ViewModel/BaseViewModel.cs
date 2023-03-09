@@ -1,13 +1,10 @@
 namespace Tofu.ViewModel;
 
-public class BaseViewModel : ObservableObject
+public class BaseViewModel
 {
 	public BaseViewModel() { }
 
-	[ObservableProperty]
-	bool isBusy;
-
-	[ObservableProperty]
+	
 
 		
 }
