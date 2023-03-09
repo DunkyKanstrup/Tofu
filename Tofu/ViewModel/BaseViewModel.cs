@@ -1,13 +1,12 @@
+using CommunityToolkit.Mvvm.ComponentModel;
+
 namespace Tofu.ViewModel;
 
-public class BaseViewModel : ObservableObject
+public partial class BaseViewModel : ObservableObject
 {
 	public BaseViewModel() { }
 
 	[ObservableProperty]
 	bool isBusy;
 
-	[ObservableProperty]
-
-		
 }
