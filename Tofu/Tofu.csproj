@@ -79,7 +79,11 @@
 
 	<ItemGroup>
 	  <Folder Include="Model\" />
+<<<<<<< HEAD
 	  <Folder Include="ViewModel\" />
+=======
+	  <Folder Include="Resources\Languages\" />
+>>>>>>> 7212729a2c1cb9525fb36030ee905d2e8a59f023
 	  <Folder Include="Services\" />
 	</ItemGroup>
 
