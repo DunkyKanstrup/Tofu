@@ -1,4 +1,7 @@
-﻿namespace Tofu;
+﻿using Tofu.Model;
+using Tofu.View;
+
+namespace Tofu;
 
 public partial class MainPage : ContentPage
 {
@@ -9,20 +12,9 @@ public partial class MainPage : ContentPage
 		InitializeComponent();
 	}
 
-	private void OnCounterClicked(object sender, EventArgs e)
+	private void NavigatePage(object sender, EventArgs e)
 	{
-		count++;
-
-		if (count == 1)
-			CounterBtn.Text = $"Clicked {count} time";
-		else
-			CounterBtn.Text = $"Clicked {count} times";
-
-		SemanticScreenReader.Announce(CounterBtn.Text);
-	}
-
-	private async void navigatePage(object sender, EventArgs e)
-	{
+		Navigation.PushAsync(new AnimalPage());
 		
 	}
 

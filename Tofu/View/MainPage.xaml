@@ -1,46 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Tofu.MainPage">
+             x:Class="Tofu.MainPage"
+             Shell.BackgroundColor="DarkSlateGray">
 
     <ScrollView>
         <VerticalStackLayout
             Spacing="25"
             Padding="30,0"
-            VerticalOptions="Center">
+            VerticalOptions="Center"
+            BackgroundColor="White">
 
             <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
+                Source="pig.jpg"
+                SemanticProperties.Description="Adult pig"
+                HeightRequest="100"
                 HorizontalOptions="Center" />
 
             <Label
-                Text="{Binding}"
+                Text="Indtast ny"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 HorizontalOptions="Center" 
-                TextColor="Red"/>
+                TextColor="DarkSlateGrey"/>
 
-            <Label
-                Text="We are gonna make Tofu"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="CenterAndExpand" />
 
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
-
-            <Button
-                x:Name="GrisBtn"
+            <StackLayout>
+                <Button
+                x:Name="PigBtn"
                 Text="Gris"
-                Clicked="navigatePage"/>
+                SemanticProperties.Hint="Navigates to AnimalPage (with pig values)"
+                Clicked="NavigatePage"
+                BackgroundColor="DarkSlateGray"
+                />
 
+                <Button
+                x:Name="CowBtn"
+                Text="Kreatur"
+                SemanticProperties.Hint="Navigates to AnimalPage (with cow values)"
+                Clicked="NavigatePage"
+                BackgroundColor="DarkSlateGray"/>
+
+                <Button
+                x:Name="LambBtn"
+                Text="Lam"
+                SemanticProperties.Hint="Navigates to AnimalPage (with lamb values)"
+                Clicked="NavigatePage"
+                BackgroundColor="DarkSlateGray"/>
+
+                <Button
+                x:Name="OtherBtn"
+                Text="Andet"
+                SemanticProperties.Hint="Navigates to AnimalPage (with no values)"
+                Clicked="NavigatePage"
+                BackgroundColor="DarkSlateGray"/>
+            </StackLayout>
         </VerticalStackLayout>
     </ScrollView>
 
