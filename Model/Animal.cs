@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Tofu.Model
 {
     public class Animal: BaseModel
     {
-        public float HotWeight { get; set; }
-        public float ColdWeight { get; set; }
+        public AnimalType Type { get; set; }
+        public double HotWeight { get; set; }
+        public double ColdWeight { get; set; }
         public int SupplierID { get; set; }
-        public DateOnly date { get; set; }
+        public DateOnly Date { get; set; }
+        public TransactionTypes TransactionType { get; set; }
     }
 }

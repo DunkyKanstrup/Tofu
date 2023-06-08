@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Diagnostics.CodeAnalysis;
 
 namespace Tofu.Model
 {
@@ -10,6 +6,12 @@ namespace Tofu.Model
     {
         public string Name { get; set; }
         
-        public int Number { get; set; }
+        public string Address { get; set; }
+        public string Country { get; set; }
+        public string City { get; set; }
+        public int Zipcode { get; set; }
+        public int CVRNumber { get; set; }
+        [AllowNull]
+        public int PhoneNumber { get; set; }
     }
 }
