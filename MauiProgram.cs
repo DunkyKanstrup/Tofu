@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using Tofu.Data;
 using Tofu.Services;
 using Tofu.View;
 using Tofu.ViewModel;
@@ -33,6 +34,9 @@ public static class MauiProgram
         builder.Services.AddSingleton<MainPage>();
         builder.Services.AddSingleton<AnimalPage>();
 
-        return builder.Build();
+		builder.Services.AddSingleton<TofuDbContext>();
+
+
+		return builder.Build();
 	}
 }

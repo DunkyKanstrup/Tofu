@@ -116,10 +116,10 @@
     "C:\\Users\\Krist\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.7.20.1\\xamarin.kotlin.stdlib.jdk8.1.7.20.1.nupkg.sha512",
     "C:\\Users\\Krist\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.6.4.1\\xamarin.kotlinx.coroutines.android.1.6.4.1.nupkg.sha512",
     "C:\\Users\\Krist\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.4.1\\xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
-    "C:\\Users\\Krist\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.28\\microsoft.windows.sdk.net.ref.10.0.19041.28.nupkg.sha512",
     "C:\\Users\\Krist\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.2\\microsoft.aspnetcore.app.runtime.win-x64.7.0.2.nupkg.sha512",
-    "C:\\Users\\Krist\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.2\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.2.nupkg.sha512",
-    "C:\\Users\\Krist\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.2\\microsoft.netcore.app.runtime.win-x64.7.0.2.nupkg.sha512"
+    "C:\\Users\\Krist\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.2\\microsoft.netcore.app.runtime.win-x64.7.0.2.nupkg.sha512",
+    "C:\\Users\\Krist\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.28\\microsoft.windows.sdk.net.ref.10.0.19041.28.nupkg.sha512",
+    "C:\\Users\\Krist\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.2\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.2.nupkg.sha512"
   ],
   "logs": []
 }
