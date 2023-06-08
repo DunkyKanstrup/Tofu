@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "nd6kn6C7LKzSl4mTlpZEwWRgo25Y24TpnbLIX5Yos8p4M94tLdwHC+JvBoR/shA+u1/b1nTSgbdp9VRbSAadfQ==",
+  "dgSpecHash": "a1p2cqtBEMWVqPJgqy//xoO0Xs9jpuDoz3g4cQPz/52HxDvrewJdW9bn28VglvPy+IDhXZOQSktFPFXicKMigA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Krist\\Desktop\\Projects\\Tofu\\Tofu\\Tofu.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Krist\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
     "C:\\Users\\Krist\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
+    "C:\\Users\\Krist\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
+    "C:\\Users\\Krist\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
+    "C:\\Users\\Krist\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.5\\microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",
+    "C:\\Users\\Krist\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Krist\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\Krist\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\Krist\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Krist\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",

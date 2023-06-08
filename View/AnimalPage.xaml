@@ -1,12 +1,41 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:Tofu.Model"
+             xmlns:viewmodel="clr-namespace:Tofu.ViewModel"
              x:Class="Tofu.View.AnimalPage"
+             x:DataType="viewmodel:AnimalViewModel"
              Title="AnimalPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Animals"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <Grid
+        ColumnDefinitions="*,Auto,*"
+        ColumnSpacing="5">
+        <StackLayout Padding="10">
+        <VerticalStackLayout
+                Grid.ColumnSpan="2">
+                <Label Text="Hot Weight" />
+                <Entry Text="{Binding HotWeight}" Keyboard="Numeric"/>
+
+                <Label Text="Cold Weight"/>
+                <Label Text="{Binding ColdWeight}"/>
+            </VerticalStackLayout>
+            
+
+                <Label Text="Date" />
+                <DatePicker  />
+
+                <Label Text="Supplier" />
+            <Picker  />
+            <!--SelectedItem="{Binding SelectedSupplier}" ItemsSource="{Binding Suppliers}" ItemDisplayBinding="{Binding Name}" -->
+            <Label Text="Transaction"/>
+            <VerticalStackLayout RadioButtonGroup.GroupName="transaction">
+                <RadioButton Content="Return"/>
+                <RadioButton IsChecked="True" Content="Buy"/>
+                <RadioButton Content="Dispose"/>
+            </VerticalStackLayout>
+                <Label Text="Comments"/>
+                <Entry Keyboard="Default"/>
+
+                <Button Text="Add Animal"  />
+        </StackLayout>
+    </Grid>
 </ContentPage>

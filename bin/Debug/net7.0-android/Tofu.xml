@@ -6,12 +6,19 @@
     <members>
         <member name="T:Tofu.ViewModel.AnimalViewModel">
             <inheritdoc/>
+            <inheritdoc/>
         </member>
-        <member name="F:Tofu.ViewModel.AnimalViewModel.getAnimalsCommand">
-            <summary>The backing field for <see cref="P:Tofu.ViewModel.AnimalViewModel.GetAnimalsCommand"/>.</summary>
+        <member name="F:Tofu.ViewModel.AnimalViewModel.getSuppliersCommand">
+            <summary>The backing field for <see cref="P:Tofu.ViewModel.AnimalViewModel.GetSuppliersCommand"/>.</summary>
         </member>
-        <member name="P:Tofu.ViewModel.AnimalViewModel.GetAnimalsCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Tofu.ViewModel.AnimalViewModel.GetAnimalsAsync"/>.</summary>
+        <member name="P:Tofu.ViewModel.AnimalViewModel.GetSuppliersCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Tofu.ViewModel.AnimalViewModel.GetSuppliers"/>.</summary>
+        </member>
+        <member name="F:Tofu.ViewModel.AnimalViewModel.addAnimalCommand">
+            <summary>The backing field for <see cref="P:Tofu.ViewModel.AnimalViewModel.AddAnimalCommand"/>.</summary>
+        </member>
+        <member name="P:Tofu.ViewModel.AnimalViewModel.AddAnimalCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Tofu.ViewModel.AnimalViewModel.AddAnimal"/>.</summary>
         </member>
         <member name="T:Tofu.ViewModel.BaseViewModel">
             <inheritdoc/>
