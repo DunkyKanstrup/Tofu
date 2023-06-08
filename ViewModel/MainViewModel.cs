@@ -1,8 +1,9 @@
-﻿
-namespace Tofu.ViewModel
+﻿using Tofu.Services;
+
+namespace Tofu.ViewModel;
+
+public partial class MainViewModel : BaseViewModel
 {
-    public partial class MainViewModel : BaseViewModel
-    {
-        
-    }
+    public MainViewModel() { }
+
 }
