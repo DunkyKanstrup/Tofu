@@ -8,6 +8,7 @@ namespace Tofu.Model
         public double ColdWeight { get; set; }
         public int SupplierID { get; set; }
         public DateOnly Date { get; set; }
-        public TransactionTypes TransactionType { get; set; }
+        public TransactionTypes TransactionType { get; set; 
+        public string Comments { get; set; }
     }
 }

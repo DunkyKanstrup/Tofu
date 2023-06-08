@@ -2,8 +2,9 @@ namespace Tofu.View;
 
 public partial class AnimalPage : ContentPage
 {
-	public AnimalPage()
+	public AnimalPage(AnimalViewModel viewModel)
 	{
 		InitializeComponent();
+		BindingContext= viewModel;
 	}
 }
