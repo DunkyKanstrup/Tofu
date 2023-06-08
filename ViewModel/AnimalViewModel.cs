@@ -41,11 +41,6 @@ public partial class AnimalViewModel : BaseViewModel
 		finally { IsBusy = false; }
 	}
 
-	[RelayCommand]
-	async Task goToAnimal(string text)
-	{
-		if(text == null) return;
 
-		await Shell.Current.GoToAsync
-	}
+
 }

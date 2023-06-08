@@ -11,5 +11,6 @@ namespace Tofu.Model
         public float HotWeight { get; set; }
         public float ColdWeight { get; set; }
         public int SupplierID { get; set; }
+        public DateOnly date { get; set; }
     }
 }

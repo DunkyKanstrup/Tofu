@@ -7,8 +7,7 @@
           ColumnSpacing="5">
         <VerticalStackLayout
             Grid.Column="0">
-            <Button
-                Command="">
+            <Button></Button>
         </VerticalStackLayout>
         <VerticalStackLayout
             BackgroundColor="Green"
