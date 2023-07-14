@@ -3,17 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Tofu.MainPage">
 
-    <Grid ColumnDefinitions="*,*"
-          ColumnSpacing="5">
-        <VerticalStackLayout
-            Grid.Column="0">
-            <Button></Button>
-        </VerticalStackLayout>
-        <VerticalStackLayout
-            BackgroundColor="Green"
-            Grid.Column="1">
-            
-        </VerticalStackLayout>
+    <Grid RowDefinitions="50, 300, 300"
+          ColumnDefinitions="*, *, *"
+          >
+        <Label Style="{StaticResource LargeLabel}" Text="Stats"
+               Grid.ColumnSpan="4"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        <Button Text="Cow"
+                Grid.Row="1"
+                />
+        <Button Text="Cow"
+                Grid.Row="1"
+                Grid.Column="1"
+                />
+        <Button Text="Cow"
+                Grid.Row="1"
+                Grid.Column="2"
+                />
+        <Button Text="Cow"
+                Grid.Row="2"
+                />
+        <Button Text="Pig"
+                Grid.Row="2"
+                Grid.Column="1"/>
+        
+        <Button Text="Chicken"
+                Grid.Row="2"
+                Grid.Column="2"/>
+
     </Grid>
     
 </ContentPage>

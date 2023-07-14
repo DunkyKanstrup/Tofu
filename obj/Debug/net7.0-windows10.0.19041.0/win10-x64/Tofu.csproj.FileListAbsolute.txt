@@ -329,3 +329,7 @@ C:\Users\Krist\Desktop\Projects\Tofu\Tofu\obj\Debug\net7.0-windows10.0.19041.0\w
 C:\Users\Krist\Desktop\Projects\Tofu\Tofu\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\Krist\Desktop\Projects\Tofu\Tofu\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Krist\Desktop\Projects\Tofu\Tofu\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\Krist\Desktop\Projects\Tofu\Tofu\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.EntityFrameworkCore.dll
+C:\Users\Krist\Desktop\Projects\Tofu\Tofu\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Krist\Desktop\Projects\Tofu\Tofu\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Krist\Desktop\Projects\Tofu\Tofu\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Caching.Memory.dll

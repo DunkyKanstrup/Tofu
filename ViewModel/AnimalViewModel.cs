@@ -21,6 +21,7 @@ public partial class AnimalViewModel : BaseViewModel
 
     public AnimalViewModel(SupplierService supplierService, IConnectivity connectivity, TofuDbContext dbContext)
 	{
+        Title = "New Animal";
 		this.supplierService = supplierService;
 		this.connection = connectivity;
         this._dbContext = dbContext;
@@ -47,6 +48,7 @@ public partial class AnimalViewModel : BaseViewModel
 		return hotWeight * 0.98;
 	}
 
+    //Takes the selected supplier and adds them to a variable to be able to save the animal
     public Supplier SelectedSupplier
     {
         get => _selectedSupplier;
@@ -57,6 +59,7 @@ public partial class AnimalViewModel : BaseViewModel
         }
     }
 
+    //Takes the selected date and adds it to a value
     public DateOnly Date
     {
         get => _date;
@@ -67,6 +70,7 @@ public partial class AnimalViewModel : BaseViewModel
         }
     }
 
+    //Gets the suppliers and adds them to a list which can be loaded into the selecter.
     [RelayCommand]
 	async Task GetSuppliers()
 	{
@@ -91,6 +95,7 @@ public partial class AnimalViewModel : BaseViewModel
 			{
 				suppliers.Add(supplier);
 			}
+            
 		}
         catch (Exception ex)
         {
@@ -103,16 +108,18 @@ public partial class AnimalViewModel : BaseViewModel
         }
     }
 
+    //Takes the variables and add them a new instance of an animal.
 	[RelayCommand]
     private async Task AddAnimal()
     {
         var newAnimal = new Animal
         {
+            
             HotWeight = HotWeight,
             ColdWeight = ColdWeight,
             Date = Date,
             SupplierID = SelectedSupplier.Id,
-			// Set other properties...
+			
 		};
 
         _dbContext.Animals.Add(newAnimal);

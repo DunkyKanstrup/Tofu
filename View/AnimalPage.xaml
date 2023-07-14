@@ -11,9 +11,10 @@
         ColumnSpacing="5">
         <StackLayout Padding="10">
         <VerticalStackLayout
+                HorizontalOptions="Center"
                 Grid.ColumnSpan="2">
                 <Label Text="Hot Weight" />
-                <Entry Text="{Binding HotWeight}" Keyboard="Numeric"/>
+                <Entry Text="{Binding HotWeight}" Keyboard="Numeric" />
 
                 <Label Text="Cold Weight"/>
                 <Label Text="{Binding ColdWeight}"/>
@@ -23,9 +24,10 @@
                 <Label Text="Date" />
                 <DatePicker  />
 
-                <Label Text="Supplier" />
-            <Picker  />
-            <!--SelectedItem="{Binding SelectedSupplier}" ItemsSource="{Binding Suppliers}" ItemDisplayBinding="{Binding Name}" -->
+            <Picker
+                Title ="Supplier"
+                ItemsSource="{Binding GetSuppliersCommand}"/>
+
             <Label Text="Transaction"/>
             <VerticalStackLayout RadioButtonGroup.GroupName="transaction">
                 <RadioButton Content="Return"/>
@@ -36,6 +38,7 @@
                 <Entry Keyboard="Default"/>
 
                 <Button Text="Add Animal"  />
+            
         </StackLayout>
     </Grid>
 </ContentPage>

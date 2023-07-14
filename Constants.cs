@@ -1,7 +1,7 @@
 ﻿namespace Tofu;
 public static class Constants
 {
-    public const string DatabaseFilename = "TodoSQLite.db3";
+    public const string DatabaseFilename = "TofuSQLite.db3";
 
     public const SQLite.SQLiteOpenFlags Flags =
         // open the database in read/write mode

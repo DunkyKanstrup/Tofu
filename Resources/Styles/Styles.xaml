@@ -8,6 +8,10 @@
         <Setter Property="Color" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />
     </Style>
 
+    <Style TargetType="Grid">
+        <Setter Property="Margin" Value="0"/>
+    </Style>
+
     <Style TargetType="IndicatorView">
         <Setter Property="IndicatorColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray500}}"/>
         <Setter Property="SelectedIndicatorColor" Value="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource Gray100}}"/>
@@ -29,9 +33,9 @@
         <Setter Property="FontFamily" Value="OpenSansRegular"/>
         <Setter Property="FontSize" Value="14"/>
         <Setter Property="CornerRadius" Value="8"/>
-        <Setter Property="Padding" Value="14,10"/>
-        <Setter Property="MaximumHeightRequest" Value="44"/>
-        <Setter Property="MaximumWidthRequest" Value="44"/>
+        <Setter Property="Padding" Value="3"/>
+        <Setter Property="MaximumHeightRequest" Value="150"/>
+        <Setter Property="MaximumWidthRequest" Value="150"/>
         <Setter Property="VisualStateManager.VisualStateGroups">
             <VisualStateGroupList>
                 <VisualStateGroup x:Name="CommonStates">
@@ -157,7 +161,7 @@
         </Setter>
     </Style>
 
-    <Style TargetType="Label">
+    <Style x:Key ="BaseLabel" TargetType="Label">
         <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
         <Setter Property="BackgroundColor" Value="Transparent" />
         <Setter Property="FontFamily" Value="OpenSansRegular" />
@@ -174,6 +178,10 @@
                 </VisualStateGroup>
             </VisualStateGroupList>
         </Setter>
+    </Style>
+
+    <Style x:Key="LargeLabel" BasedOn="{StaticResource BaseLabel}" TargetType="Label">
+        <Setter Property="FontSize" Value="20"/>
     </Style>
 
     <Style TargetType="ListView">

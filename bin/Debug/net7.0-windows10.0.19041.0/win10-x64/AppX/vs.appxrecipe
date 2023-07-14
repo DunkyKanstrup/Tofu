@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\Krist\Desktop\Projects\Tofu\Tofu\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-06-08T09:09:01.262</Modified>
+      <Modified>2023-07-07T13:12:19.737</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Krist\Desktop\Projects\Tofu\Tofu\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-06-08T08:56:39.394</Modified>
+      <Modified>2023-06-09T08:35:00.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Krist\Desktop\Projects\Tofu\Tofu\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Tofu.runtimeconfig.json">
       <PackagePath>Tofu.runtimeconfig.json</PackagePath>
-      <Modified>2023-05-13T09:00:24.862</Modified>
+      <Modified>2023-06-09T08:34:59.633</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Krist\Desktop\Projects\Tofu\Tofu\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Tofu.dll">
       <PackagePath>Tofu.dll</PackagePath>
-      <Modified>2023-06-08T09:08:59.573</Modified>
+      <Modified>2023-07-07T13:12:17.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Krist\Desktop\Projects\Tofu\Tofu\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Tofu.exe</PackagePath>
-      <Modified>2023-06-08T09:08:59.589</Modified>
+      <Modified>2023-07-07T13:12:17.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Krist\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.2\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -809,6 +809,22 @@
       <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
       <Modified>2023-04-27T00:48:24.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Krist\.nuget\packages\microsoft.entityframeworkcore\7.0.5\lib\net6.0\Microsoft.EntityFrameworkCore.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.dll</PackagePath>
+      <Modified>2023-03-15T18:09:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Krist\.nuget\packages\microsoft.entityframeworkcore.abstractions\7.0.5\lib\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.Abstractions.dll</PackagePath>
+      <Modified>2023-03-15T18:09:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Krist\.nuget\packages\microsoft.extensions.caching.abstractions\7.0.0\lib\net7.0\Microsoft.Extensions.Caching.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Caching.Abstractions.dll</PackagePath>
+      <Modified>2022-10-18T16:15:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Krist\.nuget\packages\microsoft.extensions.caching.memory\7.0.0\lib\net7.0\Microsoft.Extensions.Caching.Memory.dll">
+      <PackagePath>Microsoft.Extensions.Caching.Memory.dll</PackagePath>
+      <Modified>2022-10-18T16:15:48.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Krist\.nuget\packages\microsoft.extensions.configuration\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
       <Modified>2022-10-18T16:15:22.000</Modified>
@@ -947,7 +963,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Krist\Desktop\Projects\Tofu\Tofu\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Tofu.deps.json">
       <PackagePath>Tofu.deps.json</PackagePath>
-      <Modified>2023-06-08T09:09:01.086</Modified>
+      <Modified>2023-07-07T13:12:19.422</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.52\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
