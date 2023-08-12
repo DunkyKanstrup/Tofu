@@ -12,45 +12,45 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Tofu
-build_property.ProjectDir = C:\Users\Krist\Desktop\Projects\Tofu\Tofu\
+build_property.ProjectDir = C:\Users\Ducky\Desktop\Projekts\DunkyKanstrup\Tofu\
 
-[C:/Users/Krist/Desktop/Projects/Tofu/Tofu/App.xaml]
+[C:/Users/Ducky/Desktop/Projekts/DunkyKanstrup/Tofu/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Tofu.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Krist/Desktop/Projects/Tofu/Tofu/AppShell.xaml]
+[C:/Users/Ducky/Desktop/Projekts/DunkyKanstrup/Tofu/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Tofu.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Krist/Desktop/Projects/Tofu/Tofu/Resources/Styles/Colors.xaml]
+[C:/Users/Ducky/Desktop/Projekts/DunkyKanstrup/Tofu/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Tofu.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Krist/Desktop/Projects/Tofu/Tofu/Resources/Styles/Styles.xaml]
+[C:/Users/Ducky/Desktop/Projekts/DunkyKanstrup/Tofu/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Tofu.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Krist/Desktop/Projects/Tofu/Tofu/View/AnimalPage.xaml]
+[C:/Users/Ducky/Desktop/Projekts/DunkyKanstrup/Tofu/View/AnimalPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Tofu.View.AnimalPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\AnimalPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\AnimalPage.xaml
 
-[C:/Users/Krist/Desktop/Projects/Tofu/Tofu/View/MainPage.xaml]
+[C:/Users/Ducky/Desktop/Projekts/DunkyKanstrup/Tofu/View/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Tofu.View.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml
 
-[C:/Users/Krist/Desktop/Projects/Tofu/Tofu/View/SupplierPage.xaml]
+[C:/Users/Ducky/Desktop/Projekts/DunkyKanstrup/Tofu/View/SupplierPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Tofu.View.SupplierPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\SupplierPage.xaml
